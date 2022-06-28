@@ -201,3 +201,9 @@ $("#submitBtn").click(()=>{
     $("#submitBtn").attr("disabled" , true);
     $(".inputs input").removeClass("is-valid")
 })
+
+// enable ToolTip
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
