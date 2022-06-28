@@ -1,0 +1,129 @@
+body
+{
+    font-family: 'Playfair Display', serif;
+}
+.bg-main
+{
+    background-color: #343A40;
+}
+input
+{
+    color: white !important;
+}
+
+
+/*------------------------------------------------------- aside style ------------------------------------------------------- */
+
+
+/* aside body */
+aside
+{
+    z-index: 9999;
+    transition: all .8s ease;
+}
+#leftMenu
+{
+    width: 250px;
+    left: -250px;
+    color: white !important;
+}
+#rightMenu
+{
+    width: 60px;
+}
+.logo img
+{
+    width: 85%;
+}
+
+.share i
+{
+    margin: 10px 0px;
+}
+#rightMenu i
+{
+    cursor: pointer;
+    font-size: 26px;
+}
+.social i
+{
+    margin: 0 .5rem;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+#categories li
+{
+    cursor: pointer;
+    list-style-type: none;
+    position: relative;
+    top: 100%;
+    margin: 1.5rem 0;
+    transition: color .2s ease-in-out;
+}
+#categories li:hover , .social i:hover , #categories li a:hover
+{
+    color: #ff655c !important;
+}
+.asideFooter
+{
+    opacity: 0;
+    transition: all .8s ease-in;
+}
+
+
+/* aside toggle button */
+#toggleBtn
+{
+    font-style: normal;
+}
+.open::before
+{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f039";
+}
+.close::before
+{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00d";
+    color: #999;
+    transition: all .5s ease-in-out;
+}
+.close:hover::before
+{
+    color: black;
+}
+
+
+/*------------------------------------------------------- movies style ------------------------------------------------------- */
+
+
+.overlay
+{
+    background-color: rgba(255, 255, 255, .7);
+    transition: top .8s ease-in-out;
+    top: 100%;
+}
+.myCard:hover .overlay
+{
+    top: 0;
+}
+.searchInputs input
+{
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+
+
+/* contact style */
+#contact button
+{
+    border: 1px solid #ff655c;
+    color: #ff655c;
+}
+#contact button:hover
+{
+    background-color: #ff655c;
+    color: white;
+}
