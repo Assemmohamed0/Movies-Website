@@ -80,7 +80,7 @@ function displayMovies(moviesDisplayed)
 }
 
 // choose categories from aside
-categories.click((e)=>{
+$("#categories li a").click((e)=>{
     if(e.target.attributes.category != undefined)
     {
         category = e.target.attributes.category.value;

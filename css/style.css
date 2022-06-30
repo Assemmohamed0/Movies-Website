@@ -59,9 +59,13 @@ aside
     position: relative;
     top: 100%;
     margin: 1.5rem 0;
+    
+}
+#categories li a
+{
     transition: color .2s ease-in-out;
 }
-#categories li:hover , .social i:hover , #categories li a:hover
+ .social i:hover , #categories li a:hover
 {
     color: #ff655c !important;
 }
