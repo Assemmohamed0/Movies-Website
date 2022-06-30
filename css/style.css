@@ -38,7 +38,8 @@ aside
 
 .share i
 {
-    margin: 10px 0px;
+    margin: 10px 5px;
+
 }
 #rightMenu i
 {
@@ -81,6 +82,8 @@ aside
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f039";
+    font-size: 2rem;
+    transition: all .5s ease-in-out;
 }
 .close::before
 {
@@ -88,6 +91,7 @@ aside
     font-weight: 900;
     content: "\f00d";
     color: #999;
+    font-size: 2rem;
     transition: all .5s ease-in-out;
 }
 .close:hover::before
@@ -104,6 +108,7 @@ aside
     background-color: rgba(255, 255, 255, .7);
     transition: top .8s ease-in-out;
     top: 100%;
+    left: 0;
 }
 .myCard:hover .overlay
 {

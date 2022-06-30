@@ -64,7 +64,7 @@ function displayMovies(moviesDisplayed)
         cartoona += `<div class="col-md-4">
                         <div class="myCard position-relative overflow-hidden my-3">
                             <img class="img-fluid" src="${imgPath+moviesDisplayed[i].poster_path}" alt="">
-                            <div class="overlay w-100 h-100 position-absolute text-center p-4">
+                            <div class="overlay w-100 h-100 position-absolute text-center p-2">
                                 <h2>${moviesDisplayed[i].original_title}</h2>
                                 <p>${moviesDisplayed[i].overview}</p>
                                 <p>${moviesDisplayed[i].vote_average}</p>
