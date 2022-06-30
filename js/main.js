@@ -66,7 +66,7 @@ function displayMovies(moviesDisplayed)
                             <img class="img-fluid" src="${imgPath+moviesDisplayed[i].poster_path}" alt="">
                             <div class="overlay w-100 h-100 position-absolute text-center p-2">
                                 <h2>${moviesDisplayed[i].original_title}</h2>
-                                <p>${moviesDisplayed[i].overview}</p>
+                                <h6>${moviesDisplayed[i].overview}</h6>
                                 <p>${moviesDisplayed[i].vote_average}</p>
                                 <p>${moviesDisplayed[i].release_date}</p>
                             </div>
