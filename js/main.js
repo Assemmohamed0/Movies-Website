@@ -133,7 +133,7 @@ $(".item6").click(()=>{
 $("#submitBtn").attr("disabled" , true);
 $(".inputs input").val("");
 let nameRegex = /^\S+$/
-let emailRegex = /^[a-zA-Z]{1,}@[a-z]{3,10}\.(com|net|org)$/
+let emailRegex = /^[a-zA-Z][a-zA-Z0-9]{2,}@[a-z]{3,10}\.(com|net|org)$/
 let phoneRegex = /^01[0125][0-9]{8}$/
 let ageRegex = /^(\d{2}|100)$/
 let passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/
